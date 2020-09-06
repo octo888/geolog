@@ -9,8 +9,8 @@ class Home extends React.Component {
     render() {
         const { t } = this.props;
         return (
-            <div>dss
-                <h3>{t('home')}</h3>
+            <div className={'w-100 d-flex align-items-center justify-content-center'}>
+                <img src={'/logo.jpg'} />
             </div>
         );
     }
